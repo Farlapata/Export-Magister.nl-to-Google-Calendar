@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/issues)
-[![License](https://img.shields.io/github/license/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ---
 
