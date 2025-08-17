@@ -1,16 +1,16 @@
 # Magister to Google Calendar Exporter
 
-[![GitHub stars](https://img.shields.io/github/stars/YOURUSERNAME/Magister-to-Google-Calendar?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YOURUSERNAME/Magister-to-Google-Calendar?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/YOURUSERNAME/Magister-to-Google-Calendar?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/issues)
-[![License](https://img.shields.io/github/license/YOURUSERNAME/Magister-to-Google-Calendar?style=for-the-badge)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/issues)
+[![License](https://img.shields.io/github/license/Farlapata/Export-Magister.nl-to-Google-Calendar?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/blob/main/LICENSE)
 
 ---
 
 ## 🌟 Features
 
 - Extracts lessons from Magister PDF files
-- Handles Dutch dates and months
+- Handles Dutch dates and months automatically
 - Adds events to Google Calendar with subject, class, teacher, and room
 - Simple GUI to select PDF
 - Real-time progress bar and error reporting
@@ -29,6 +29,8 @@
 ---
 
 ## ⚙️ Installation
+
+Install the required Python packages:
 
 ```bash
 pip install pdfplumber google-auth-oauthlib google-api-python-client tqdm
@@ -54,14 +56,14 @@ pip install pdfplumber google-auth-oauthlib google-api-python-client tqdm
 2. Create a **new project** or select an existing project.
 3. In the left sidebar, click **APIs & Services → Library**.
 4. Search for **Google Calendar API** and click **Enable**.
-5. After enabling, navigate to **APIs & Services → Credentials**.
+5. Navigate to **APIs & Services → Credentials**.
 6. Click **Create Credentials → OAuth client ID**.
 7. If prompted to configure the consent screen:
    - Select **External** for personal use.
-   - Fill in **App Name**, **User Email**, and **Scopes** (you can leave optional info blank).
+   - Fill in **App Name**, **User Email**, and **Scopes** (optional info can be blank).
    - Save the consent screen configuration.
 8. Back at **Create OAuth Client ID**, choose **Desktop App**.
-9. Give it a name (like `Magister Calendar Exporter`) and click **Create**.
+9. Give it a name (e.g., `Magister Calendar Exporter`) and click **Create**.
 10. Download the JSON file. This is your `credentials.json`.  
 11. **Important:** Move `credentials.json` into the same folder as `magister_to_calendar.py`.
 
@@ -70,23 +72,27 @@ pip install pdfplumber google-auth-oauthlib google-api-python-client tqdm
 ### 3️⃣ Verify Setup
 
 1. Make sure Python 3.8+ is installed.
-2. Install required packages:
+2. Confirm required packages are installed:
 
 ```bash
 pip install pdfplumber google-auth-oauthlib google-api-python-client tqdm
 ```
 
-3. Confirm `credentials.json` is in the project folder.
+3. Ensure `credentials.json` is in the project folder.
 4. Your project folder should now contain:
-   ```
-   magister_to_calendar.py
-   credentials.json
-   ```
+
+```
+magister_to_calendar.py
+credentials.json
+```
+
 5. You are ready to run the script.
 
 ---
 
 ## 🚀 Usage
+
+Run the script:
 
 ```bash
 python magister_to_calendar.py
@@ -101,7 +107,7 @@ python magister_to_calendar.py
 ## 💡 Notes
 
 - One PDF = **one week**; run separately for each week.
-- Default timezone is **Europe/Amsterdam**. Change in the script if needed.
+- Default timezone is **Europe/Amsterdam** (change in the script if needed).
 - Events include subject, class, teacher, and room.
 
 ---
@@ -118,9 +124,9 @@ python magister_to_calendar.py
 
 If you like this project, please **star ⭐ it**, **watch 👀 it**, or **fork 🍴 it**!
 
-[![Star](https://img.shields.io/badge/Star-⭐-brightgreen?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/stargazers)
-[![Fork](https://img.shields.io/badge/Fork-🍴-blue?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/fork)
-[![Report Issue](https://img.shields.io/badge/Report%20Issue-🐛-red?style=for-the-badge)](https://github.com/YOURUSERNAME/Magister-to-Google-Calendar/issues)
+[![Star](https://img.shields.io/badge/Star-⭐-brightgreen?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/stargazers)
+[![Fork](https://img.shields.io/badge/Fork-🍴-blue?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/fork)
+[![Report Issue](https://img.shields.io/badge/Report%20Issue-🐛-red?style=for-the-badge)](https://github.com/Farlapata/Export-Magister.nl-to-Google-Calendar/issues)
 
 ---
 
